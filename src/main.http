@@ -1,0 +1,46 @@
+GET http://localhost:8080/
+
+###
+
+POST http://localhost:8080/echo
+Content-Type: application/json
+{
+    "name": "Sri Ganesh Thota",
+    "email": "sriganeshthota12345@gmail.com",
+    "password": "password"
+}
+
+###
+
+GET http://localhost:8080/hey/Sri%20Ganesh%20Thota
+
+###
+
+GET localhost:8080/users/
+
+###
+
+GET localhost:8080/users/2
+
+###
+
+POST localhost:8080/users/
+Content-Type: application/json
+
+{
+    "name": "Sri Ganesh Thota"
+}
+
+###
+
+PUT localhost:8080/users/2
+Content-Type: application/json
+{
+    "name": "Thota Sri Ganesh"
+}
+
+###
+
+DELETE localhost:8080/users/2
+
+###
