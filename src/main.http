@@ -4,6 +4,7 @@ GET http://localhost:8080/
 
 POST http://localhost:8080/echo
 Content-Type: application/json
+
 {
     "name": "Sri Ganesh Thota",
     "email": "sriganeshthota12345@gmail.com",
@@ -16,15 +17,15 @@ GET http://localhost:8080/hey/Sri%20Ganesh%20Thota
 
 ###
 
-GET localhost:8080/users/
+GET http://localhost:8080/users/
 
 ###
 
-GET localhost:8080/users/2
+GET http://localhost:8080/users/1
 
 ###
 
-POST localhost:8080/users/
+POST http://localhost:8080/users/
 Content-Type: application/json
 
 {
@@ -33,14 +34,15 @@ Content-Type: application/json
 
 ###
 
-PUT localhost:8080/users/2
+PUT http://localhost:8080/users/2
 Content-Type: application/json
+
 {
     "name": "Thota Sri Ganesh"
 }
 
 ###
 
-DELETE localhost:8080/users/2
+DELETE http://localhost:8080/users/2
 
 ###
